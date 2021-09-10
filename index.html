@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" href="styles.css">
+    <!-- tipografias -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+    <!-- para instalar Font-awesome -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="menu">
+            <div class="contenedor">
+                <img src="imagenes/logo.png" alt="logo">
+                <img class="menu-icon" src="imagenes/menu.png" width="26px" alt="">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="">Home</a>
+                        </li>
+                        <li>
+                            <a href="#programs">Programs</a>
+                        </li>
+                        <li>
+                            <a href="#welcome">Welcome</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="titular">
+            <h1>Yoga <br>
+                Studio
+            </h1>
+            <p>Lorem ipsum dolor sit amet</p>
+            <a href="">Our Programs</a>
+        </div>
+    </header>
+
+    <section id="programs">
+        <div class="contenedor">
+            <h2>Welcome to our yoga studio</h2>
+            <div class="contenedor-programs">
+
+                <div class="program">
+                    <img src="imagenes/clase1.jpg" alt="">
+                    <h3>Ashtanga</h3>
+                    <p>
+                        Bridge is a club, delivering an unrivaled experience from training to regeneration. All of our
+                        clubs feature our clinically proven Personal Training, hosted by the industry’s most
+                        sought-after personal trainers.
+                    </p>
+                </div>
+
+                <div class="program">
+                    <img src="imagenes/clase2.jpg" alt="">
+                    <h3>Hatha</h3>
+                    <p>
+                        Bridge is a club, delivering an unrivaled experience from training to regeneration. All of our
+                        clubs feature our clinically proven Personal Training, hosted by the industry’s most
+                        sought-after personal trainers.
+                    </p>
+                </div>
+
+                <div class="program">
+                    <img src="imagenes/clase3.jpg" alt="">
+                    <h3>Bikram</h3>
+                    <p>
+                        Bridge is a club, delivering an unrivaled experience from training to regeneration. All of our
+                        clubs feature our clinically proven Personal Training, hosted by the industry’s most
+                        sought-after personal trainers.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="welcome">
+        <div class="contenedor">
+
+            <div class="imagen">
+                <img src="imagenes/welcome.jpg" alt="">
+            </div>
+
+            <div class="texto">
+                <h2>Welcome to our yoga studio</h2>
+                <p>Bridge is a club, delivering an unrivaled experience from training to regeneration. All of our clubs
+                    feature our clinically proven Personal Training, hosted by the industry’s most sought-after personal
+                    trainers. Bridge is a club, delivering an unrivaled experience from training to regeneration. All of
+                    our
+                    clubs feature our clinically proven Personal Training, hosted by the industry’s most sought-after
+                    personal trainers. Bridge is a club, delivering an unrivaled experience from training to
+                </p>
+                <a href="#">our programs</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="numeros">
+        <div class="contenedor">
+
+            <div class="numero">
+                <h2>7</h2>
+                <p>ashtanga yoga</p>
+            </div>
+
+            <div class="numero">
+                <h2>12</h2>
+                <p>hatha yoga</p>
+            </div>
+
+            <div class="numero">
+                <h2>3</h2>
+                <p>bikram yoga</p>
+            </div>
+
+            <div class="numero">
+                <h2>27</h2>
+                <p>iyengar yoga</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="contenedor">
+
+            <div class="copy">
+                <p>&copy This is a demo by Diego Agudo</p>
+            </div>
+
+            <div class="redes">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+    </script>
+
+    <script>
+        $(document).ready(function(){
+            $('.menu-icon').click(function(){
+                $('nav').slideToggle();
+            })
+        })
+    </script>
+</body>
+
+</html>
